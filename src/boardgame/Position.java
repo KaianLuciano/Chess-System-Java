@@ -17,14 +17,21 @@ public class Position {
 	public int getRow() {
 		return row;
 	}
+	
+	public void setRow(int row) {
+		this.row = row;
+	}
 
 	public int getColumns() {
 		return columns;
 	}
+	public void setColumns(int columns) {
+		this.columns = columns;
+	}
 	
-	protected void setValues(int row, int column) {
-		this.row += row;
-		this.columns += column;
+	public void setValues(int row, int column) {
+		this.row = row;
+		this.columns = column;
 	}
 	
 }
